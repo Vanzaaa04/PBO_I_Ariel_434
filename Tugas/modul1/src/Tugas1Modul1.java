@@ -3,54 +3,86 @@ import java.util.Scanner;
 public class Tugas1Modul1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        String inputUser, inputPass, inputNama, nimMahasiswa;
 
-        System.out.println("\t Selamat Datang di Sistem Login Sederhana");
-        System.out.println("1. Admin");
-        System.out.println("2. Mahasiswa");
-        System.out.println("3. Keluar");
+        System.out.println("==========================================================");
+        System.out.println("         SELAMAT DATANG DI SISTEM LOGIN SEDERHANA         ");
+        System.out.println("==========================================================");
+        System.out.println("| 1. ADMIN                                               |");
+        System.out.println("| 2. MAHASISWA                                           |");
+        System.out.println("| 3. KELUAR                                              |");
+        System.out.println("==========================================================");
+
         System.out.print("Silahkan Pilih Menu Login: ");
         int login = input.nextInt();
         input.nextLine();
-        String inputUser, inputPass, inputNama, nimMahasiswa;
 
+        while (login < 1 || login > 3) {
+            System.out.println("----------------------------------------");
+            System.out.println("PILIHAN TIDAK VALID! SILAHKAN COBA LAGI.");
+            System.out.println("----------------------------------------");
+            System.out.print("Silahkan Pilih Menu Login: ");
+            login = input.nextInt();
+            input.nextLine();
+        }
 
         if (login == 1) {
             String username = "Admin434";
             String pass = "password434";
 
-            System.out.print("\nMasukkan Username: ");
-            inputUser = input.next();
+            System.out.println("\n\n==========================================================");
+            System.out.println("              SELAMAT DATANG DI MENU ADMIN         ");
+            System.out.println("==========================================================");
+            do {
+                System.out.print("Masukkan Username: ");
+                inputUser = input.nextLine();
+                System.out.print("Masukkan Password: ");
+                inputPass = input.nextLine();
 
-            System.out.print("Masukkan Password: ");
-            inputPass = input.next();
+                if (!inputUser.equals(username) || !inputPass.equals(pass)) {
+                    System.out.println("\n-------------------------------------------");
+                    System.out.println("LOGIN GAGAL! USERNAME ATAU PASSWORD SALAH.");
+                    System.out.println("-------------------------------------------");
+                }
+            } while (!(inputUser.equals(username) && inputPass.equals(pass)));
 
-            if (inputUser.equals(username) && inputPass.equals(pass)) {
-                System.out.println("Login Admin Berhasil!, Kamu Ganteng :) ");
-            }else {
-                System.out.println("Login gagal! Username atau Password salah.");
-            }
-        }else if(login == 2) {
+            System.out.println("========================================");
+            System.out.println("        LOGIN ADMIN BERHASIL!           ");
+            System.out.println("========================================");
+
+        } else if (login == 2) {
             String name = "Ariel Ardiansyah";
             String nim = "202410370110434";
 
-            System.out.print("\nMasukkan Nama: ");
-            inputNama = input.nextLine();
+            System.out.println("\n\n==========================================================");
+            System.out.println("            SELAMAT DATANG DI MENU MAHASISWA         ");
+            System.out.println("==========================================================");
+            do {
+                System.out.print("Masukkan Nama: ");
+                inputNama = input.nextLine();
+                System.out.print("Masukkan Nim: ");
+                nimMahasiswa = input.next();
+                input.nextLine();
 
-            System.out.print("Masukkan Nim: ");
-            nimMahasiswa = input.next();
+                if (!inputNama.equals(name) || !nimMahasiswa.equals(nim)) {
+                    System.out.println("\n---------------------------------------------");
+                    System.out.println("LOGIN GAGAL! NAMA ATAU NIM SALAH. COBA LAGI.");
+                    System.out.println("---------------------------------------------");
+                }
+            } while (!(inputNama.equals(name) && nimMahasiswa.equals(nim)));
 
-            if (inputNama.equals(name) && nimMahasiswa.equals(nim)){
-                System.out.println("\nLogin Mahasiswa berhasil!");
-                System.out.println("\nDATA MAHASISWA: ");
-                System.out.println("Nama: " + name);
-                System.out.println("Nim: " + nim);
-            }else{
-                System.out.println("Login gagal! Nama atau Nim Salah. ");
-            }
-        }else if(login == 3){
-            System.out.println("Terima Kasih!");
-        }else{
-            System.out.println("Pilihan Tidak Valid! MUlai ulang program.");
+            System.out.println("========================================");
+            System.out.println("        LOGIN MAHASISWA BERHASIL!       ");
+            System.out.println("========================================");
+            System.out.println("\nDATA MAHASISWA");
+            System.out.println("----------------------------------------");
+            System.out.println("Nama: " + name);
+            System.out.println("NIM : " + nim);
+            System.out.println("========================================");
+        } else {
+            System.out.println("========================================");
+            System.out.println("        TERIMA KASIH! SAMPAI JUMPA.      ");
+            System.out.println("========================================");
         }
         input.close();
     }
