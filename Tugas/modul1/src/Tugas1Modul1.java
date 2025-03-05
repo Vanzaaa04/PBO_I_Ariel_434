@@ -17,7 +17,7 @@ public class Tugas1Modul1 {
         int login = input.nextInt();
         input.nextLine();
 
-        while (login < 1 || login > 3) {
+        while (login < 1 || login > 3){
             System.out.println("----------------------------------------");
             System.out.println("PILIHAN TIDAK VALID! SILAHKAN COBA LAGI.");
             System.out.println("----------------------------------------");
