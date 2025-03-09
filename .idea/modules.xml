@@ -3,12 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" filepath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/Codelab/modul1/src/modul1.iml" filepath="$PROJECT_DIR$/Codelab/modul1/src/modul1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codelab/modul2/modul2.iml" filepath="$PROJECT_DIR$/Codelab/modul2/modul2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codelab/modul2/modul3/modul3.iml" filepath="$PROJECT_DIR$/Codelab/modul2/modul3/modul3.iml" />
-=======
->>>>>>> 186adf6 (Commit to Github)
     </modules>
   </component>
 </project>
