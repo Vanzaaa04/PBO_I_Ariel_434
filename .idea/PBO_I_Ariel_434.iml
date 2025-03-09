@@ -3,10 +3,17 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Codelab/modul1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Codelab/modul3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Codelab/Modul1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tugas/modul1/src" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Codelab/Modul1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Codelab/Modul1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Codelab/Modul2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tugas/Tugas_PBO" isTestSource="false" />
+>>>>>>> 186adf6 (Commit to Github)
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
