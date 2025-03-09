@@ -18,7 +18,7 @@ public class Tugas1Modul1 {
         input.nextLine();
 
         while (login < 1 || login > 3){
-            System.out.println("----------------------------------------");
+            System.out.println("\n----------------------------------------");
             System.out.println("PILIHAN TIDAK VALID! SILAHKAN COBA LAGI.");
             System.out.println("----------------------------------------");
             System.out.print("Silahkan Pilih Menu Login: ");
@@ -39,14 +39,14 @@ public class Tugas1Modul1 {
                 System.out.print("Masukkan Password: ");
                 inputPass = input.nextLine();
 
-                if (!inputUser.equals(username) || !inputPass.equals(pass)) {
+                if (!(inputUser.equals(username) || inputPass.equals(pass))) {
                     System.out.println("\n-------------------------------------------");
                     System.out.println("LOGIN GAGAL! USERNAME ATAU PASSWORD SALAH.");
                     System.out.println("-------------------------------------------");
                 }
             } while (!(inputUser.equals(username) && inputPass.equals(pass)));
 
-            System.out.println("========================================");
+            System.out.println("\n========================================");
             System.out.println("        LOGIN ADMIN BERHASIL!           ");
             System.out.println("========================================");
 
@@ -80,7 +80,7 @@ public class Tugas1Modul1 {
             System.out.println("NIM : " + nim);
             System.out.println("========================================");
         } else {
-            System.out.println("========================================");
+            System.out.println("\n========================================");
             System.out.println("        TERIMA KASIH! SAMPAI JUMPA.      ");
             System.out.println("========================================");
         }

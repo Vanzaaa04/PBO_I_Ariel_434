@@ -1,6 +1,6 @@
 import java.time.Year;
 import java.util.Scanner;
-public class Codelab1 {
+public class Codelab {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan nama: ");
