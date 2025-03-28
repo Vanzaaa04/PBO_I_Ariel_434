@@ -9,11 +9,11 @@ class RekeningBank {
     }
 
     void tampilkanInfo(){
-        System.out.println("Nomor Rekening: " + nomorRekening);
-        System.out.println("Nama pemilik: " + namaPemilik);
-        System.out.print("Saldo: " + saldo );
-        System.out.print("\n");
-        System.out.println();
+        System.out.println("-------------------------------------");
+        System.out.println("Nomor Rekening : " + nomorRekening);
+        System.out.println("Nama pemilik   : " + namaPemilik);
+        System.out.println("Saldo          : " + saldo );
+        System.out.println("-------------------------------------");
     }
 
     void setorUang(double jumlah){

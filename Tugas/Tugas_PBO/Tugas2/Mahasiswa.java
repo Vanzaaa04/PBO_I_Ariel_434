@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// Belum selesai
 class Mahasiswa {
     String InputNama, InputNim;
     String nama = "Ariel Ardiansyah";

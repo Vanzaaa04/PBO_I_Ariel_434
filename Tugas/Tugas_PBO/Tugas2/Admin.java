@@ -1,4 +1,5 @@
 import  java.util.Scanner;
+// Belum selesai
 class Admin {
     String InputUsername = " ", InputPass = " ";
     String Username = "Admin434";
@@ -16,7 +17,6 @@ class Admin {
             InputPass = input.nextLine();
         }
         System.out.println("LOgin berhasil!");
-
         input.close();
     }
 }

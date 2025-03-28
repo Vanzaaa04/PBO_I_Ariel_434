@@ -17,12 +17,12 @@ public class LoginSystem {
             System.out.print("pilih menu login: ");
             pilihan = input.nextInt();
 
-            if (pilihan < 1 || pilihan > 3){
+            if ( pilihan < 1 || pilihan > 3 ){
                 System.out.println("Pilihan tidak Valid, Input lagi!");
             }
-        }while (pilihan < 1 || pilihan > 3);
+        } while ( pilihan < 1 || pilihan > 3 );
 
-        if( pilihan == 1){
+        if( pilihan == 1 ){
             System.out.print("Masukkan Username: ");
             admin.InputUsername = input.next();
             input.nextLine();
@@ -31,7 +31,7 @@ public class LoginSystem {
 
             admin.login();
 
-        }else if ( pilihan == 2){
+        } else if ( pilihan == 2 ){
             System.out.print("Masukkan Nama: ");
             mahasiswa.InputNama = input.next();
             input.nextLine();
@@ -41,7 +41,7 @@ public class LoginSystem {
             mahasiswa.login();
             mahasiswa.displayInfo();
 
-        }else{
+        } else {
             System.out.println("Terima Kasih");
         }
         input.close();

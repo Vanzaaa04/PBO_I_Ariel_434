@@ -8,6 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Codelab/Modul2/Codelab2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tugas/Tugas_PBO/Tugas1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tugas/Tugas_PBO/Tugas2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Latihan/contructor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Codelab/Modul3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tugas/Tugas_PBO/Tugas3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Latihan/Arraylist" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

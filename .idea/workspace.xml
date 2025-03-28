@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2bbd72-c386-49a0-89d9-ea406eeb2812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab1/Hewan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab2/Codelab2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab2/RekeningBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/LoginSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul3/Gorengan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul3/KarakterGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul3/MainGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Latihan/Arraylist/LatihanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas3/LoginSystemClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas3/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas1/Tugas1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/Tugas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/src/Tugas1Modul1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/modul1/src/modul1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/modul2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codelab/Modul2/Codelab1/Hewan.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab1/Hewan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codelab/Modul2/Codelab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codelab/Modul2/Codelab2/Codelab2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab2/Codelab2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codelab/Modul2/Codelab2/RekeningBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul2/Codelab2/RekeningBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/LoginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/LoginSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas2/Mahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Codelab2Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Codelab2Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Hewan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Hewan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/RekeningBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/RekeningBank.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +61,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Codelab.executor": "Run",
-    "Application.Codelab2Main.executor": "Run",
-    "Application.LoginSystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Tugas1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/PBO_I_Ariel_434/Tugas/Tugas_PBO/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Codelab.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codelab2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consturctor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gorengan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LatihanCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LatihanConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginSystemClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tugas1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainGame.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PBO_I_Ariel_434&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PBO_I_Ariel_434\Tugas\Tugas_PBO\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mainGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mainGame" />
+      <module name="PBO_I_Ariel_434" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.mainGame" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
