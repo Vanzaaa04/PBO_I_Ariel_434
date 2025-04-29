@@ -1,28 +1,36 @@
 import java.util.Scanner;
-// Belum selesai
+
 class Mahasiswa {
     String InputNama, InputNim;
     String nama = "Ariel Ardiansyah";
     String nim = "202410370110434";
 
-    void login(){
+    void login() {
         Scanner input = new Scanner(System.in);
 
-        while (!InputNim.equals(nama) && !InputNim.equals(nim)){
-            System.out.println("Nama atau Nim Salah! , Silahkan input lagi!");
-            System.out.print("Masukkan Nama: ");
-            InputNama = input.next();
+        while (!InputNama.equals(nama) || !InputNim.equals(nim)) {
+            System.out.println("\n----------------------------------------------------");
+            System.out.println("|   LOGIN GAGAL! NAMA ATAU NIM TIDAK SESUAI.       |");
+            System.out.println("----------------------------------------------------");
+
+            System.out.print("Masukkan Nama : ");
+            InputNama = input.nextLine();
             input.nextLine();
-            System.out.print("Masukkan NIm: ");
+            System.out.print("Masukkan NIM  : ");
             InputNim = input.nextLine();
         }
-        System.out.println("Login Berhasil");
-        input.close();
+
+        System.out.println("\n----------------------------------------------------");
+        System.out.println("|       >>> LOGIN MAHASISWA BERHASIL! <<<          |");
+        System.out.println("----------------------------------------------------");
     }
 
-    void displayInfo(){
-        System.out.println("Nama Mahasiswa: " + nama);
-        System.out.println("Nim Mahasiswa: " + nim);
+    void displayInfo() {
+        System.out.println("\n========================================");
+        System.out.println("|            DATA MAHASISWA            |");
+        System.out.println("========================================");
+        System.out.println("| Nama : " + nama);
+        System.out.println("| NIM  : " + nim);
+        System.out.println("========================================");
     }
-
 }
