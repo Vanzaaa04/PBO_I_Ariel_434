@@ -5,35 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2bbd72-c386-49a0-89d9-ea406eeb2812" name="Changes" comment="ronaldo">
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/AdminActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/MahasiswaActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/main/LoginSystemClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/AdminClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/MahasiswaClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/TugasKelasPbo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src/Flora/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src/Flora/Rumput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src/Flora/Tanaman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src2/Herbivora/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src2/Herbivora/Hewan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src2/Herbivora/Karakter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src2/Herbivora/Kuda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/src2/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codelab/Modul4/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul4/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Anggota.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Anggota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Buku.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Buku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Fiksi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Fiksi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/NonFiksi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/NonFiksi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Peminjaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/Codelab/Modul4/perpustakaan/Peminjaman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/Anggota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/Anggota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/Buku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/Buku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/Fiksi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/Fiksi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/NonFiksi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/perpustakaan/NonFiksi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/AdminActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/AdminActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/MahasiswaActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/MahasiswaActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/main/LoginSystemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/main/LoginSystemClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/AdminClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/AdminClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/MahasiswaClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/MahasiswaClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

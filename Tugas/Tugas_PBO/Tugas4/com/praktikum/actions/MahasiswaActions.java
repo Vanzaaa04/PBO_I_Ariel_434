@@ -1,9 +1,7 @@
 package com.praktikum.actions;
 
-// Belum Selesai ya
+// Interface untuk Mahasiswa
 public interface MahasiswaActions {
-
     void reportItem();
     void viewReportedItems();
-
 }

@@ -1,6 +1,6 @@
 package com.praktikum.users;
 
-// Belum Selesai ya
+// Abstract class untuk User
 public abstract class User {
     private String nama;
     private String nim;
@@ -17,7 +17,6 @@ public abstract class User {
 
     public void setNama() {
         this.nama = nama;
-
     }
 
     public String getNim() {
@@ -29,14 +28,10 @@ public abstract class User {
     }
 
     public abstract void login();
-
     public abstract void displayAppMenu();
 
     public void displayInfo() {
-        System.out.println("Nama mahasiswa: " + nama);
-        System.out.println("Nim Mahasiswa: " + nim);
+        System.out.println("Nama Mahasiswa: " + nama);
+        System.out.println("NIM Mahasiswa : " + nim);
     }
 }
-
-
-

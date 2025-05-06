@@ -1,9 +1,7 @@
 package com.praktikum.actions;
 
-// Belum Selesai ya
+// Interface untuk Admin
 public interface AdminActions {
-
     void manageItems();
     void manageUsers();
-
 }
