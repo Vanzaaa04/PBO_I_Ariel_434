@@ -1,6 +1,7 @@
 package perpustakaan;
 
 public class NonFiksi extends Buku {
+
     public NonFiksi(String judul, String penulis, String genre){
         super(judul, penulis, genre);
     }

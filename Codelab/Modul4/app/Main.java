@@ -11,8 +11,8 @@ public class Main {
         fiksi.displayInfo();
         System.out.println();
 
-        Anggota anggota = new Anggota("Ariel" , "(ID: I434)");
-        Anggota anggota1 = new Anggota("Musa", "(ID: I411)");
+        Anggota anggota = new Anggota("Ariel" , "I434");
+        Anggota anggota1 = new Anggota("Musa", "I411");
         System.out.println();
 
         anggota.pinjamBuku(nonFiksi.judul);

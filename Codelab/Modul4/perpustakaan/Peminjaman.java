@@ -1,6 +1,8 @@
-package perpustakaan;
-
-public interface Peminjaman  {
-    public void pinjamBuku(String judul);
-    public void kembalikanBuku();
-}
+    package perpustakaan;
+    
+    public interface Peminjaman {
+    
+        void pinjamBuku(String judul);
+        void kembalikanBuku();
+    
+    }

@@ -1,12 +1,14 @@
 package perpustakaan;
 
 public class Anggota implements Peminjaman{
-    String nama, idAnggota, bukuDipinjam;
+    String nama;
+    String idAnggota;
+    String bukuDipinjam;
 
     public Anggota(String nama, String idAnggota){
         this.nama = nama;
         this.idAnggota = idAnggota;
-        System.out.println("Anggota: " + nama + " " + idAnggota);
+        System.out.println("Anggota: " + nama + " " + " (ID: " + idAnggota+ ")");
     }
 
     @Override
@@ -14,6 +16,7 @@ public class Anggota implements Peminjaman{
         System.out.println(nama + " meminjam buku berjudul: " + judul);
         bukuDipinjam = judul;
     }
+
 
     public void pinjamBuku(String judul, int durasi){
         System.out.println(nama + " meminjam buku \"" + judul + "\" selama " + durasi + " hari");
@@ -24,4 +27,5 @@ public class Anggota implements Peminjaman{
     public void kembalikanBuku(){
         System.out.println(nama + " mengembalikan buku berjudul: " + bukuDipinjam);
     }
+
 }
