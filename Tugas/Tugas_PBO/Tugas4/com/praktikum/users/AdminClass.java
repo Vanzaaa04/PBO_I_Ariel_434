@@ -16,7 +16,7 @@ public class AdminClass extends User implements AdminActions {
         do {
             System.out.print("Masukkan Username: ");
             inputUsername = input.next();
-            input.nextLine(); // flush
+            input.nextLine();
             System.out.print("Masukkan Password: ");
             inputPassword = input.nextLine();
 
