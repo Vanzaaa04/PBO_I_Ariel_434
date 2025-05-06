@@ -17,7 +17,7 @@ public class MahasiswaClass extends User implements MahasiswaActions {
     public void login() {
         do {
             System.out.print("Masukkan Username: ");
-            inputUsername = input.nextLine(); // GANTI DARI next() ke nextLine()
+            inputUsername = input.nextLine();
             System.out.print("Masukkan Password: ");
             inputPassword = input.nextLine();
 
@@ -42,7 +42,7 @@ public class MahasiswaClass extends User implements MahasiswaActions {
 
     @Override
     public void reportItem() {
-        input.nextLine(); // flush jika sebelumnya pakai nextInt
+        input.nextLine();
         System.out.print("Masukkan Nama Barang: ");
         namaBarang = input.nextLine();
         System.out.print("Masukkan Deskripsi Barang: ");
