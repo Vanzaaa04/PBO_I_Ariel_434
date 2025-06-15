@@ -1,4 +1,4 @@
-package com.praktikum.actions;
+package praktikum.actions;
 
 // Interface untuk Admin
 public interface

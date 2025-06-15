@@ -5,13 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2bbd72-c386-49a0-89d9-ea406eeb2812" name="Changes" comment="ronaldo">
+      <change afterPath="$PROJECT_DIR$/BelajarUap/BelajarUap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul5/Barang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul5/ManajemenStok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul5/StokTidakCukupException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codelab/Modul5/latihan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjekPbo/src/login/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjekPbo/src/login/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjekPbo/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjekPbo/src/sistem/Aspirasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjekPbo/src/sistem/Laporan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjekPbo/src/sistem/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/actions/AdminActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/actions/MahasiswaActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/main/LoginSystemClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/users/AdminClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/users/MahasiswaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas5/praktikum/users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/Tugas/DemoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/Tugass/ThrowExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TugasKelasPbo/Tugasss/NeracaKeuangan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PBO_I_Ariel_434.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/AdminActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/AdminActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/MahasiswaActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/actions/MahasiswaActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/main/LoginSystemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/main/LoginSystemClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/AdminClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/AdminClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/MahasiswaClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/MahasiswaClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas4/com/praktikum/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TugasKelasPbo/TugasKelasPbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TugasKelasPbo/TugasKelasPbo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/com/praktikum/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PBO_I_Ariel_434/com/praktikum/users/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +76,7 @@
     &quot;Application.Codelab.executor&quot;: &quot;Run&quot;,
     &quot;Application.Codelab2Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Consturctor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoException.executor&quot;: &quot;Run&quot;,
     &quot;Application.Gorengan.executor&quot;: &quot;Run&quot;,
     &quot;Application.LatihanCode.executor&quot;: &quot;Run&quot;,
     &quot;Application.LatihanConstructor.executor&quot;: &quot;Run&quot;,
@@ -61,7 +84,11 @@
     &quot;Application.LoginSystemClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManajemenStok.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NeracaKeuangan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThrowExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.Tugas1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.latihan.executor&quot;: &quot;Run&quot;,
     &quot;Application.mainGame.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -70,15 +97,16 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/PBO_I_Ariel_434&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/PBO_I_Ariel_434/TugasKelasPbo/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/PBO_I_Ariel_434/BelajarUap/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PBO_I_Ariel_434\Tugas\Tugas_PBO\Tugas5" />
       <recent name="D:\PBO_I_Ariel_434\Tugas\Tugas_PBO\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">

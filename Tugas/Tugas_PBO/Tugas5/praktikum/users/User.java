@@ -1,12 +1,10 @@
-package com.praktikum.users;
+package praktikum.users;
 
-// Abstract class untuk User
 public abstract class User {
     private String nama;
     private String nim;
-    String inputUsername, inputPassword;
 
-    User(String nama, String nim) {
+    public User(String nama, String nim) {
         this.nama = nama;
         this.nim = nim;
     }

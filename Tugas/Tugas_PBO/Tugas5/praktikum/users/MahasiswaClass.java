@@ -1,13 +1,14 @@
-package com.praktikum.users;
+package praktikum.users;
 
-import com.praktikum.actions.*;
+import praktikum.actions.MahasiswaActions;
+import praktikum.main.LoginSystemClass;
+import praktikum.models.Item;
+
 import java.util.Scanner;
 
 public class MahasiswaClass extends User implements MahasiswaActions {
     Scanner input = new Scanner(System.in);
-    String namaBarang, deskripsiBarang, lokasiDitemukan;
     int pilihanMenu;
-    String inputUsername, inputPassword;
 
     public MahasiswaClass(String nama, String nim) {
         super(nama, nim);
@@ -15,22 +16,20 @@ public class MahasiswaClass extends User implements MahasiswaActions {
 
     @Override
     public void login() {
-        do {
-            System.out.print("Masukkan Username: ");
-            inputUsername = input.nextLine(); // GANTI DARI next() ke nextLine()
-            System.out.print("Masukkan Password: ");
-            inputPassword = input.nextLine();
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Masukkan Username: ");
+        String user = scan.nextLine();
+        System.out.print("Masukkan Password: ");
+        String pass = scan.nextLine();
 
-            if (!inputUsername.equals(getNama()) || !inputPassword.equals(getNim())) {
-                System.out.println("\n==================================================");
-                System.out.println("||      NAMA ATAU NIM TIDAK SESUAI!             ||");
-                System.out.println("==================================================");
+        for (User u : LoginSystemClass.userList) {
+            if (u instanceof MahasiswaClass && u.getNama().equals(user) && u.getNim().equals(pass)) {
+                displayInfo();
+                displayAppMenu();
+                return;
             }
-
-        } while (!inputUsername.equals(getNama()) || !inputPassword.equals(getNim()));
-
-        displayInfo();
-        displayAppMenu();
+        }
+        System.out.println("Login gagal. Coba lagi.");
     }
 
     @Override
@@ -44,18 +43,32 @@ public class MahasiswaClass extends User implements MahasiswaActions {
     public void reportItem() {
         input.nextLine();
         System.out.print("Masukkan Nama Barang: ");
-        namaBarang = input.nextLine();
+        String namaBarang = input.nextLine();
         System.out.print("Masukkan Deskripsi Barang: ");
-        deskripsiBarang = input.nextLine();
+        String deskripsiBarang = input.nextLine();
         System.out.print("Masukkan Lokasi Terakhir/Ditemukan: ");
-        lokasiDitemukan = input.nextLine();
+        String lokasiDitemukan = input.nextLine();
+
+        Item item = new Item(namaBarang, deskripsiBarang, lokasiDitemukan);
+        LoginSystemClass.reportedItems.add(item);
 
         System.out.println("\n>> Data Barang Telah Dicatat. Terima Kasih! <<");
     }
 
     @Override
     public void viewReportedItems() {
-        System.out.println(">> Fitur Lihat Laporan Belum Tersedia <<");
+        boolean found = false;
+        System.out.println("\nDaftar Barang yang Dilaporkan:");
+        for (Item item : LoginSystemClass.reportedItems) {
+            if ("Reported".equals(item.getStatus())) {
+                System.out.println("- " + item.getNamaBarang() + " | " + item.getDeskripsi() +
+                        " | Lokasi: " + item.getLokasi());
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println(">> Belum ada laporan barang. <<");
+        }
     }
 
     @Override
@@ -69,7 +82,13 @@ public class MahasiswaClass extends User implements MahasiswaActions {
             System.out.println("||  0. Logout                                  ||");
             System.out.println("==================================================");
             System.out.print("Pilih menu: ");
-            pilihanMenu = input.nextInt();
+            try {
+                pilihanMenu = input.nextInt();
+            } catch (Exception e) {
+                System.out.println(">> Input harus berupa angka! <<");
+                input.nextLine();
+                continue;
+            }
 
             switch (pilihanMenu) {
                 case 1:
